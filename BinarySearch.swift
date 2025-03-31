@@ -48,7 +48,8 @@ repeat {
                 if arrayOfInts[mid] == searchInt {
                     print("Number found at index: \(mid)")
                     break
-                } else if arrayOfInts[mid] < searchInt {
+                } else if arrayO
+                fInts[mid] < searchInt {
                     low = mid + 1
                 } else {
                     high = mid - 1
